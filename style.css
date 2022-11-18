@@ -13,3 +13,21 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/************* MACRO LAYOUT **************/
+
+header {
+  background-color: black;
+  border-bottom: 1px dashed white;
+  height: 80px;
+}
+main {
+  background-color: black;
+  height: calc(100vh- 160px);
+  color: white;
+  overflow-y: auto;
+}
+footer {
+  background-color: #222;
+  height: 80px;
+}
