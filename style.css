@@ -8,17 +8,7 @@
 body {
   font-family: Montserrat;
 }
-h2 {
-  color: white;
-  font-weight: bold;
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-img {
-  max-width: 100%;
-  display: block;
-  padding-left: 20px;
-}
+
 /*Utils*/
 .container {
   max-width: 1600px;
@@ -36,11 +26,21 @@ img {
 }
 .sidebar {
   background-color: black;
-  width: 300px;
+  flex: 0 0 230px;
 }
 main {
-  background-color: rgb(14, 14, 32);
-  width: calc(100vw - 300px);
+  flex: 1 1 auto;
+  overflow: auto;
+  background-color: rgb(12, 12, 56);
+  position: relative;
+}
+header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 80px;
 }
 footer {
   background-color: rgb(15, 15, 15);
