@@ -11,8 +11,6 @@ body {
 h2 {
   color: white;
   font-weight: bold;
-  padding-left: 20px;
-  padding-top: 30px;
 }
 
 h3 {
@@ -28,13 +26,16 @@ h4 {
   padding-top: 10px;
 }
 img {
-  padding-left: 20px;
   padding-top: 20px;
+  display: inline;
+  width: 260px;
+  height: 260px;
+  padding-right: 20px;
 }
 
 /*Utils*/
 .container {
-  max-width: 1600px;
+  max-width: 1640px;
   margin: 0 auto;
 }
 
@@ -75,20 +76,36 @@ footer {
   .sidebar {
     flex-basis: 200px;
   }
+  .container {
+    max-width: 1640px;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 576px) {
   .sidebar {
     flex-basis: 170px;
+  }
+  .container {
+    max-width: 1640px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 480px) {
   .sidebar {
     flex-basis: 170px;
   }
+  .container {
+    max-width: 1640px;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 470px) {
   .sidebar {
     flex-basis: 50px;
+  }
+  .container {
+    max-width: 1640px;
+    margin: 0 auto;
   }
 }
 /*****************LAYOUT********************/
