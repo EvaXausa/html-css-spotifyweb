@@ -11,6 +11,7 @@ body {
 h2 {
   color: white;
   font-weight: bold;
+  padding-top: 20px;
 }
 
 h3 {
@@ -52,6 +53,7 @@ img {
   background-color: black;
   flex: 0 0 230px;
 }
+
 main {
   flex: 1 1 auto;
   overflow: auto;
